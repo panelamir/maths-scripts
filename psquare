@@ -1,0 +1,5 @@
+enter  lenth and breadth size
+
+numb1=$1
+echo $(( 4*numb1 ))
+

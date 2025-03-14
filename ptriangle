@@ -1,0 +1,5 @@
+ echo enter the three sizes
+numb1=$1
+numb2=$2
+numb3=$3
+echo $(( numb1 + numb2 + numb3 ))

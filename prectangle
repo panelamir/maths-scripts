@@ -1,0 +1,6 @@
+echo enter  lenth and breadth size
+
+numb1=$1
+numb2=$2
+echo $(( 2*numb1 + 2*numb2 ))
+

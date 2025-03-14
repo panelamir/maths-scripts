@@ -1,0 +1,3 @@
+enter the lenth
+numb1=$1
+echo $(( numb1 * numb1 ))

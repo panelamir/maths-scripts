@@ -1,0 +1,6 @@
+echo enter lenth base and height
+numb1=$1
+number2=$2
+echo $(( numb1/2 * numb2 ))
+
+
