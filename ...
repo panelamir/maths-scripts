@@ -1,0 +1,6 @@
+echo you want to calculate the area of a square right
+read -p  "length: " lenght
+read -p "breadth: " breadth
+echo "area of rectangle: $((lenght * breadth))"
+
+

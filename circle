@@ -1,4 +1,0 @@
-numb1=$1
-numb2=$2
-echo $(( numb1 + numb2 ))
-

@@ -1,3 +1,3 @@
-enter the lenth
-numb1=$1
-echo $(( numb1 * numb1 ))
+read -p "Lenght: " lenght
+echo "The Area of the square is: $((lenght * lenght))
+"

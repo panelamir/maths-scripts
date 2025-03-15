@@ -1,6 +1,5 @@
-echo enter  lenth and breadth size
-
-numb1=$1
-numb2=$2
-echo $(( 2*numb1 + 2*numb2 ))
+echo enter the following to calculate the perimeter
+read -p "lenght: " lenght
+read -p "breadth: " breadth
+echo the perimeter of the rectangle is $(( 2*lenght + 2*breadth ))
 

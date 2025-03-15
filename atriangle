@@ -1,6 +1,4 @@
-echo enter lenth base and height
-numb1=$1
-number2=$2
-echo $(( numb1/2 * numb2 ))
-
-
+echo enter the following for the area
+read -p "base: " base
+read -p "height: " height
+echo  "the area of the triangle is $(( 0.5*base * height ))"

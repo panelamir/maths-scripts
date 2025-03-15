@@ -1,5 +1,3 @@
-enter  lenth and breadth size
-
-numb1=$1
-echo $(( 4*numb1 ))
-
+echo enter the following to find the perimeter
+read -p "lenght: " lenght
+echo "the perimeter of the square is $(( 4*lenght ))"

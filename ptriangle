@@ -1,5 +1,5 @@
- echo enter the three sizes
-numb1=$1
-numb2=$2
-numb3=$3
-echo $(( numb1 + numb2 + numb3 ))
+ echo enter the three sizes for your perimeter
+read -p "lenght1: " lenght1
+read -p "lenght2: " lenght2
+read -p "lenght3: " lenght3
+echo the perimeter of the triangle is $(( lenght1 + lenght2 + lenght3 ))

@@ -1,5 +1,5 @@
 
-echo enter lengh and breadth
-numb1=$1
-numb2=$2
-echo $(( numb1 * numb2 ))
+echo enter the following to calculate the area
+read -p "lenght: " lenght
+read -p "breadth: " breadth
+echo the area of the rectangle is $(( lenght * breadth ))
