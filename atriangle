@@ -1,4 +1,4 @@
 echo enter the following for the area
 read -p "base: " base
 read -p "height: " height
-echo  "the area of the triangle is $(( 0.5*base * height ))"
+echo area : $(echo "0.5 * $base * $height" | bc)
