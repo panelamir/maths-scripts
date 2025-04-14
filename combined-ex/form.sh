@@ -1,8 +1,19 @@
 #!/usr/bin/env bash
 
-form=('Firstname: ' 'Lastname: ' 'DOB: ' 'School: ')
+userFileName=$1
 
-for (( i=0; i<4; i++ ));do
-   read -p ${form[i]} data
-   echo $data >> data.txt
-done
+getUserData(){
+  form=('Firstname: ' 'Lastname: ' 'DOB: ' 'School: ' 'Email: ' 'Password')
+
+  for (( i=0; i<6; i++ ));do
+    if [ ${form[i]} == Password ]
+    then
+       read -sp ${form[i]} data
+    else
+       read -p ${form[i]} data
+    fi
+    echo $data >> $1
+  done
+}
+
+getUserData $userFileName
